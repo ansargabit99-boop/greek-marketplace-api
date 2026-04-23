@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict YGGs94lA66iG2dJLstPwzrrIDtcBkY2qa01nnUSHGHrFr8LQvahd0G2EU1bF2ab
+\restrict IAmsqkmVFhChp7foXgzb5JVBVxviCask9E6y8dMaxavFCYxYv2JfufgZ1ueOH7f
 
 -- Dumped from database version 18.3
 -- Dumped by pg_dump version 18.3
@@ -294,6 +294,8 @@ COPY public.categories (id, name) FROM stdin;
 
 COPY public.users (id, name, phone, email, password, role, created_at, updated_at) FROM stdin;
 1	ansar	87784845135	ansargabit@gmail.com	ansGAB2009.	user	2026-04-17 16:24:54.247666+05	2026-04-17 16:24:54.247666+05
+2	Ethan Brooks	+1 202 555 0143	ethan@ws-s17.kz	$2b$10$Y8OovFexa/ugHtGp3t2yLe9rzJNxX9fQ5LuFXLy6lwTxe11f6L3pS	user	2026-04-23 13:13:51.364949+05	2026-04-23 13:13:51.364949+05
+3	Olivia Carter	+44 7700 900321	olivia@ws-s17.kz	$2b$10$UKIUcaM4PQuE9gqyKRFXiuFoeWsIn5mCZKFFZh16hUa4T4SQ5o3du	moderator	2026-04-23 13:13:51.364949+05	2026-04-23 13:13:51.364949+05
 \.
 
 
@@ -330,7 +332,7 @@ SELECT pg_catalog.setval('public.categories_id_seq', 7, true);
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.users_id_seq', 1, true);
+SELECT pg_catalog.setval('public.users_id_seq', 3, true);
 
 
 --
@@ -441,5 +443,5 @@ ALTER TABLE ONLY public.views
 -- PostgreSQL database dump complete
 --
 
-\unrestrict YGGs94lA66iG2dJLstPwzrrIDtcBkY2qa01nnUSHGHrFr8LQvahd0G2EU1bF2ab
+\unrestrict IAmsqkmVFhChp7foXgzb5JVBVxviCask9E6y8dMaxavFCYxYv2JfufgZ1ueOH7f
 
